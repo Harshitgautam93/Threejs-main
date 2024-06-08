@@ -1,0 +1,311 @@
+@import url("https://use.typekit.net/jmk3xov.css");
+
+/* More specific selector */
+body .my-button {
+  background-color: #4CAF50; /* Green background */
+  border: none; /* Remove borders */
+  color: white; /* White text */
+  padding: 15px 32px; /* Some padding */
+  text-align: center; /* Centered text */
+  text-decoration: none; /* Remove underline */
+  display: inline-block; /* Make the button inline-block */
+  font-size: 16px; /* Increase font size */
+  margin: 45px; /* Add some margin */
+  cursor: pointer; /* Add a pointer cursor on hover */
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ 
+
+}
+
+/* Styles for the button when hovered */
+body .my-button:hover {
+  background-color: #45a049; /* Darker green */
+}
+
+/* Styles for the button when active (clicked) */
+body .my-button:active {
+  background-color: #0cbfe3; /* Even darker green */
+  box-shadow: 0 5px #666; /* Add a shadow */
+  transform: translateY(4px); /* Move the button down slightly */
+}
+body .my-button1 {
+  background-color: #0cbfe3; /* Green background */
+  border: none; /* Remove borders */
+  color: white; /* White text */
+  padding: 15px 32px; /* Some padding */
+  text-align: center; /* Centered text */
+  text-decoration: none; /* Remove underline */
+  display: inline-block; /* Make the button inline-block */
+  font-size: 16px; /* Increase font size */
+  margin: 45px; /* Add some margin */
+  cursor: pointer; /* Add a pointer cursor on hover */
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 400;
+}
+
+/* Styles for the button when hovered */
+body .my-button1:hover {
+  background-color:#0fc1e5; /* Darker green */
+}
+
+/* Styles for the button when active (clicked) */
+body .my-button1:active {
+  background-color: #10c2e6; /* Even darker green */
+  box-shadow: 0 5px #666; /* Add a shadow */
+  transform: translateY(4px); /* Move the button down slightly */
+}
+body .my-button2 {
+  background-color: #d1e30a; /* Green background */
+  border: none; /* Remove borders */
+  color: white; /* White text */
+  padding: 15px 32px; /* Some padding */
+  text-align: center; /* Centered text */
+  text-decoration: none; /* Remove underline */
+  display: inline-block; /* Make the button inline-block */
+  font-size: 16px; /* Increase font size */
+  margin: 45px; /* Add some margin */
+  cursor: pointer; /* Add a pointer cursor on hover */
+  
+
+}
+
+/* Styles for the button when hovered */
+body .my-button2:hover {
+  background-color: #d6e80e; /* Darker green */
+}
+
+/* Styles for the button when active (clicked) */
+body .my-button2:active {
+  background-color:#d3e607; /* Even darker green */
+  box-shadow: 0 5px #666; /* Add a shadow */
+  transform: translateY(4px); /* Move the button down slightly */
+}
+body .my-button3 {
+  background-color: #982e8c; /* Green background */
+  border: none; /* Remove borders */
+  color: white; /* White text */
+  padding: 15px 32px; /* Some padding */
+  text-align: center; /* Centered text */
+  text-decoration: none; /* Remove underline */
+  display: inline-block; /* Make the button inline-block */
+  font-size: 16px; /* Increase font size */
+  margin: 45px; /* Add some margin */
+  cursor: pointer;
+  
+}
+
+/* Styles for the button when hovered */
+body .my-button3:hover {
+  background-color:#a72f99; /* Darker green */
+}
+
+/* Styles for the button when active (clicked) */
+body .my-button3:active {
+  background-color: #e035cc; /* Even darker green */
+  box-shadow: 0 5px #666; /* Add a shadow */
+  transform: translateY(4px); /* Move the button down slightly */
+}
+body .my-button4 {
+  background-color: #ec8107; 
+  border: none; /* Remove borders */
+  color: white; /* White text */
+  padding: 15px 32px; /* Some padding */
+  text-align: center; /* Centered text */
+  text-decoration: none; /* Remove underline */
+  display: inline-block; /* Make the button inline-block */
+  font-size: 16px; /* Increase font size */
+  margin: 45px; /* Add some margin */
+  cursor: pointer;
+
+}
+
+/* Styles for the button when hovered */
+body .my-button4:hover {
+  background-color: #df7a08; /* Darker green */
+}
+
+/* Styles for the button when active (clicked) */
+body .my-button4:active {
+  background-color: #e47f0c; /* Even darker green */
+  box-shadow: 0 5px #666; /* Add a shadow */
+  transform: translateY(4px); /* Move the button down slightly */
+}
+
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+:root {
+  --spacing: 350px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+main {
+  width: 50vw;
+  color: white;
+  z-index: 99;
+  position: absolute;
+  width: 100%;
+  margin: 0px auto;
+  padding: 120px 0px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+h1, h2, h3, blockquote {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  background-color:chartreuse;
+  color:black;
+}
+
+header {
+  background-color: black;
+  background: var(--dark-bg);
+  grid-column: 2 / span 5;
+  font-size: 2.5rem;
+  padding: 2rem;
+  margin-bottom: var(--spacing);
+}
+
+section {
+  grid-column: 2 / 8;
+  padding: 1rem;
+  background: var(--dark-bg);
+  font-size: 1.25rem;
+  line-height: 1.5;
+  margin-bottom: var(--spacing);
+}
+
+blockquote {
+  margin: 0;
+  padding-left: 50px;
+  grid-column: 2 / span 9;
+  margin-bottom: var(--spacing);
+  background-color: black;
+  text-align:"center";
+}
+
+blockquote p {
+  color: white;
+  font-size: 4rem;
+  display: inline;
+  line-height: 1;
+  background-color: black;
+}
+
+.left {
+  grid-column: 6 / 12;
+}
+
+.button-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.button-container1 {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.button-container2 {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.button-container3 {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.button-container4 {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.project-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.projects-grid {
+  display: flex;
+  gap: 20px;
+}
+
+.project {
+  flex: 1;
+  text-align: center;
+}
+
+.project-image img {
+  max-width: 100%;
+  height: auto;
+  
+}
+
+.skills-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.skills-grid {
+  display: flex;
+  gap: 20px;
+}
+
+.skills {
+  flex: 1;
+  text-align: center;
+}
+
+.skills-image img {
+  max-width: 100%;
+  height: auto;
+  
+}
+
+
+/* styles.css */
+
+/* Preloader styles */
+#preloader {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background-color: #000; /* Black background */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Percentage styles */
+.percentage {
+  font-size: 200px; /* Big font size */
+  font-weight:400px; 
+  color: #fff; /* White text */
+  animation: animatePercentage 3s linear forwards; /* Animation */
+  opacity: 0; /* Initially hidden */
+}
+
+@keyframes animatePercentage {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+
